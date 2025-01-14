@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #E5E5E5;
+    color: #000000;
+}
+
+header {
+    background-color: #14213D;
+    color: #FFFFFF;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    padding: 0.5em;
+}
+
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 0 1em;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #FCA311;
+}
+
+section {
+    padding: 2em;
+    margin: 1em auto;
+    max-width: 800px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #14213D;
+}
+
+.skills {
+    text-align: center;
+}
+
+.skills span {
+    display: inline-block;
+    margin: 0.5em;
+    padding: 0.5em 1em;
+    background-color: #FCA311;
+    color: #FFFFFF;
+    border-radius: 4px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 0.5em 0;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #14213D;
+    color: #FFFFFF;
+}
+
+.profile-pic {
+    display: block;
+    margin: 1em auto;
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
